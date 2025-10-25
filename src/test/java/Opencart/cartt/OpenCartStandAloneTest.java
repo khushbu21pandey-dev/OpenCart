@@ -75,7 +75,9 @@ public static void main(String[] args)
  driver.findElement(By.id("button-payment-address")).click();
  System.out.println("clicked on the continue button");
  System.out.println("clicked on the continue button");
+ System.out.println("will start writing payments scripts");
  driver.quit();
+ 
  
  
  
