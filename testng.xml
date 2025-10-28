@@ -5,13 +5,8 @@
   <test thread-count="5" name="Stand Test">
   <classes>
       <class name="Opencart.cartt.OpenCartStandTest"/>
-      
-      
+      <class name="Opencart.cartt.OpenCartStandAloneTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="StandAlone Test">
-<classes>
-<class name="Opencart.cartt.OpenCartStandAloneTest"/>
-</classes>
-</test>
+  
 </suite> <!-- Suite -->
