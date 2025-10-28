@@ -23,6 +23,7 @@ public  void cartStandTest()
 	//driver.findElement(By.id("input-newsletter")).click();
 	driver.findElement(By.cssSelector("input[name='agree']")).click();
 	driver.findElement(By.cssSelector("input[type='submit']")).click();
+	System.out.println("Registration Succesfull");
 	
 //	driver.findElement(By.id("input-email")).sendKeys("Khushbu23pandey@gmail.com");
 //	driver.findElement(By.id("input-password")).sendKeys("Khushbu21@");
